@@ -1,0 +1,117 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------- CONTACT FORM START --------------- */
+
+.form-container {
+    background-color: #648ebd;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 9em 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 1.5em;
+    max-width: 28rem;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+    text-align: left;
+    background-color: var(--clr-white);
+}
+
+.form__title {
+    color: var(--clr-primary);
+    font-weight: bolder;
+}
+
+.form-item {
+    margin-top: 3.5em;
+}
+
+.form-item + .form-item {
+    margin-top: 2em;
+}
+
+.form-item textarea {
+    height: 12em;
+}
+
+.form-input,
+.form-button {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: .7rem;
+    /*letter-spacing: .5px;*/
+    border: 0;
+    padding: 1em;
+}
+
+.form-input {
+    /*background: var(--clr-primary);*/
+    width: 100%;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+.form-input::placeholder {
+    color: rgb(133, 133, 133);
+    opacity: 0.75;
+}
+
+.form-input:focus::placeholder {
+    color: #006194;
+    opacity: 0.85;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-button {
+    width: 60%;
+    border-radius: 2px;
+    border: 1px solid var(--clr-light-blue);
+    padding: 1em;
+    margin: 5em auto 0 auto;
+    /* Ver si el transition está bien acá*/
+    transition: 400ms ease-in-out;
+    background-color: var(--clr-light-blue);
+    color: var(--clr-white);
+}
+
+.form-button:hover {
+    background-color: var(--clr-dark-blue);
+    border: 1px solid var(--clr-dark-blue);
+    cursor: pointer;
+}
+
+/* --------------- CONTACT FORM END--------------- */
+
+@media only screen and (min-width: 860px) {
+
+    /* --------------- FORM BIG SCREEN START --------------- */
+    
+    .form-container {
+        padding: 7em 0;
+    }
+    
+    .form {
+        padding: 4em;
+    }
+
+    .form-input {
+        -webkit-box-shadow: 0 0 1em rgba(187, 187, 187, 0.377);
+        -moz-box-shadow: 0 0 1em rgba(187, 187, 187, 0.377);
+        box-shadow: 0 0 1em rgba(187, 187, 187, 0.377);
+        border: 1px solid rgb(253, 253, 253);
+    }
+    /* --------------- FORM BIG SCREEN START --------------- */
+
+}

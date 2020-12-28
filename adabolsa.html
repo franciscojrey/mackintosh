@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ada Software | Gestión Bursátil</title>
+        <!-- STYLES -->
+        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/adabolsa.css">
+        <!-- BOOTSTRAP STYLES -->
+        <link rel="stylesheet" href="static/css/bootstrap.css">
+        <!-- LOGO -->
+        <link rel="shortcut icon" type="image/x-icon" href="static/img/logo_titulo.png">
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/8ca6f1cadf.js" crossorigin="anonymous"></script>
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="static/img/logo.png" alt="" class="logo"></a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="adabolsa.html">Ada Bolsa</a></li>
+                    <li><a href="adacolegios.html">Ada Colegios</a></li>
+                    <li><a href="contact.php">Contacto</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+        </header>
+
+        <section class="hero-adabolsa">
+            <h1 class="section-title mb-7 uppercase">Ada Bolsa</h1>
+            <h3 class="hero-adabolsa__description mb-7">Nos dedicamos a proveer el sistema de Back Office para agentes bursátiles, prestando un servicio que se adapta a las nuevas tecnologías y se ajusta a los requerimientos del mercado y de nuestros clientes.</h3>
+            <div class="btn-group">
+                <a href="contact.php" class="hero-adabolsa__btn uppercase">contacto</a>
+            </div>
+        </section>
+
+
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Características</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal__title bold">Mantenimiento de Cuentas Corrientes</p>
+                    <p class="modal__description">Saldos pendientes. </p>
+                    <p class="modal__description">Cobros y Pagos por Caja. </p>
+                    <p class="modal__description">Débitos: por Custodia, por Mantenimiento de cuenta y Créditos Varios. </p>
+                    <hr>
+                    <p class="modal__title bold">Mantenimiento de custodia</p>
+                    <p class="modal__description">Caja de Valores. </p>
+                    <p class="modal__description">Liquidación Automática de Dividendos, Rentas y Amortizaciones. </p>
+                    <hr>
+                    <p class="modal__title bold">Registro de operaciones del Mercado de Buenos Aires o de otros mercados</p>
+                    <p class="modal__description">Carga Automática desde el FTF o carga manual. </p>
+                    <p class="modal__description">Operatoria Cheque Pago Diferido (CPD).</p>
+                    <hr>
+                    <p class="modal__title bold">Prevención Lavado de Dinero – Licitud de Fondos</p>
+                    <p class="modal__description">Herramientas relacionadas con la normativa del Mercado de Valores y la UIF al respecto. </p>
+                    <hr>
+                    <p class="modal__title bold">Registros contables</p>
+                    <p class="modal__description">Generación Automática de todos los Asientos Contables. </p>
+                    <p class="modal__description">Módulo de Contabilidad General. </p>
+                    <p class="modal__description">IVA Debito e IVA Crédito Fiscal. </p>
+                    <hr>
+                    <p class="modal__title bold">Contabilidad general</p>
+                    <p class="modal__description">Registro de asientos. </p>
+                    <p class="modal__description">Diario general. </p>
+                    <p class="modal__description">Resúmenes de cuenta. </p>
+                    <p class="modal__description">Emisión de balances. </p>
+                    <p class="modal__description">Cierre y apertura del ejercicio. </p>
+                    <p class="modal__description">Generación de planillas Excel. </p>
+                    <hr>
+                    <p class="modal__title bold">Tecnología</p>
+                    <p class="modal__description">La base de datos funciona sobre un motor SQL, lo que permite estandarización y performance. </p>
+                    <hr>
+                    <p class="modal__title bold">Otras herramientas</p>
+                    <p class="modal__description">Carga automática de precios. </p>
+                    <p class="modal__description">Valorización Automática de Tenencia. </p>
+                    <p class="modal__description">Resúmen de cuenta para Clientes con el logo de su empresa. </p>
+                    <p class="modal__description">Generación de archivos de texto para abrir en Excel. </p>
+                    <p class="modal__description">Envío de E-Mails automáticos. </p>
+                    <p class="modal__description">Acceso por Pantalla al Registro de Firmas, Documentación y Fotos de los Comitentes. </p>
+                    <p class="modal__description">Generación de Saldos y movimientos para mostrar en páginas web y ser consultados por los clientes. </p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <section class="features-container">
+            <div class="features">
+                <div class="feature__box feature__box1">
+                    <i class="far fa-copy"></i>
+                    <h4 class="feature__box-title1">Registro de operaciones</h4>
+                    <p>Cargue automáticamente desde los distintos mercados.</p>
+                </div>
+                <div class="feature__box feature__box2">
+                    <i class="fas fa-book"></i>
+                    <h4 class="feature__box-title1">Registros contables</h4>
+                    <p>Genere automáticamente todos los asientos contables, módulo de Contabilidad General, IVA Debito e IVA Crédito Fiscal.</p>
+                </div>
+                <div class="feature__box feature__box3">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h4 class="feature__box-title1">Cuenta corriente</h4>
+                    <p>Saldos pendientes, cobros y pagos por caja, débitos por custodia, por mantenimiento de cuenta y créditos Varios.</p>
+                </div>
+                <div class="feature__box feature__box4">
+                    <i class="fas fa-book-open"></i>
+                    <h4 class="feature__box-title2">Contabilidad general</h4>
+                    <p>Registro de asientos, diario general, resúmenes de cuenta, emisión de balances, cierre y apertura del ejercicio, generación de planillas Excel.</p>
+                </div>
+                <div class="feature__box feature__box5">
+                    <i class="fas fa-user-shield"></i>
+                    <h4 class="feature__box-title2">Prevención Lavado de Dinero – Licitud de Fondos.</h4>
+                    <p>Herramientas relacionadas con la normativa del Mercado de Valores y la UIF al respecto.</p>
+                </div>
+                <div class="feature__box feature__box6">
+                    <i class="fas fa-donate"></i>
+                    <h4 class="feature__box-title2"> Mantenimiento de custodia</h4>
+                    <p>Caja de Valores. Liquidación Automática de Dividendos, Rentas y Amortizaciones.</p>
+                </div>
+                <p class="feature__button">Para ver todas las características haga click
+                    <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal">aquí</button>.
+                </p>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="footer__contact-info">
+                <div class="footer__contact-block">
+                    <h4>Teléfono</h4>
+                    <a class="contact-text">011 5909 3849</a>
+                    <a class="contact-text">011 3964 4983</a>
+                </div>
+                <div class="footer__contact-block">
+                    <h4>Email</h4>
+                    <a class="contact-text">consultas@adasoftware.com.ar</a>
+                </div>
+                <div class="footer__contact-block">
+                    <h4>Contáctenos</h4>
+                    <a href="https://twitter.com/adabolsa" class="contact-link">Twitter AdaBolsa</a>
+                    <a href="https://twitter.com/AdaEducativa" class="contact-link">Twitter AdaColegios</a>
+                    <a href="https://www.facebook.com/adasoftwareargentina" class="contact-link">Facebook</a>
+                    <a href="contact.php" class="contact-link">Envíenos un email</a>
+                </div>
+            </div>
+        </footer>
+        <!-- SPINNER LOADING WEBSITE -->
+        <script src="static/js/spinner.js"></script>
+        <!-- JQUERY -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- BOOTSTRAP -->
+        <script src="static/js/bootstrap.js"></script>
+    </body>
+</html>

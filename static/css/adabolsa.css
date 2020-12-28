@@ -1,0 +1,184 @@
+/* --------------- HERO START --------------- */
+
+.hero-adabolsa {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.hero-adabolsa h1 {
+    color: var(--clr-dark-blue);
+    font-family: Colfax;
+    font-size: 2.3rem;
+}
+
+.hero-adabolsa__description {
+    color: var(--clr-grey);
+    font-family: Colfax;
+    line-height: 1.5;
+    font-size: .9rem;
+}
+
+.hero-adabolsa__btn {
+    font-family: Colfax;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    transition: all 400ms ease-in-out;
+    font-weight: bold;
+    padding: 0.75em 1.5em;
+    border: 1px solid var(--clr-light-blue);
+    background-color: var(--clr-light-blue);
+}
+
+.hero-adabolsa__btn:hover,
+.hero-adabolsa__btn:focus {
+    background: var(--clr-white);
+    color: var(--clr-light-blue);
+}
+/* --------------- HERO END --------------- */
+
+/* --------------- FEATURES START --------------- */
+
+.features {
+    padding: 1.5em;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(199, 199, 199, 0.5);
+    -moz-box-shadow: 0px 0px 22px 3px rgba(199, 199, 199, 0.5);
+    box-shadow: 0px 0px 22px 3px rgba(199, 199, 199, 0.5);
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 4em;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "box1"
+    "box2"
+    "box3"
+    "box4"
+    "box5"
+    "box6"
+    "button"
+}
+
+.feature__box1 { grid-area: box1; }
+.feature__box2 { grid-area: box2; }
+.feature__box3 { grid-area: box3; }
+.feature__box4 { grid-area: box4; }
+.feature__box5 { grid-area: box5; }
+.feature__box6 { grid-area: box6; }
+
+.feature__box {
+    text-align: left;
+}
+
+.feature__box i {
+    font-size: 60px;
+    grid-area: logo;
+    color: rgb(37, 62, 129);
+    margin-bottom: 20px;
+}
+
+.feature__box h4 {
+    grid-area: title;
+    color: var(--clr-dark-blue);
+    font-family: Colfax;
+    font-size: 1.1rem;
+}
+
+.feature__box p {
+    margin-top: .7em;
+    grid-area: description;
+    font-size: .9rem;
+}
+
+.feature__button { 
+    grid-area: button;
+    color: black;
+    font-weight: bolder;
+}
+
+/* --------------- FEATURES END --------------- */
+
+/* --------------- MODAL START --------------- */
+
+.modal__title {
+    margin: 0;
+}
+
+hr {
+    margin: 1.5em 0;
+    border: .5px solid rgb(224, 224, 224);
+}
+
+.modal__description {
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------- MODAL END --------------- */
+
+
+
+@media only screen and (min-width: 860px) {
+    .features {
+        grid-template-columns: repeat(3,1fr);
+        width: 90%;
+        max-width: 1100px;
+        grid-template-areas: 
+        "box1 box2 box3"
+        "box4 box5 box6"
+        "button button button"
+    }
+
+    .feature__box-title2 {
+        height: 140px;
+    }
+}
+
+@media only screen and (min-width: 910px) {
+    .feature__box-title2 {
+        height: 110px;
+    }
+}
+
+@media only screen and (min-width: 922px) {
+    .feature__box-title1 {
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 1010px) {
+    .feature__box-title2 {
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width: 1180px) {
+    .feature__box-title1 {
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    .feature__box-title1 {
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .features {
+        padding: 3em;
+    }
+
+    .hero-adabolsa h1 {
+        font-size: 3rem;
+    }
+
+    .hero-adabolsa__description {
+        font-size: 1.1rem;
+    }
+}

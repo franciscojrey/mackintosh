@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mackintosh</title>
+        <!-- STYLES -->
+        <link rel="stylesheet" href="static/css/styles.css">
+        <!-- LOGO -->
+        <link rel="shortcut icon" type="image/x-icon" href="static/img/logo_titulo.png">
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/8ca6f1cadf.js" crossorigin="anonymous"></script>
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- MATERIALIZE -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+        <!-- GOOGLE CAPTCHA -->
+         <script src="https://www.google.com/recaptcha/api.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <img src="static/img/logo.png" alt="" class="logo">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav>
+                <ul>
+                    <li><a href="#hero" class="uppercase">Inicio</a></li>
+                    <li><a href="#features" class="uppercase">Productos</a></li>
+                    <li><a href="#about-us" class="uppercase">Nosotros</a></li>
+                    <li><a href="#contact" class="uppercase">Contacto</a></li>
+                    <li><a href="static/pdf/aranceles.pdf" target="_blank" class="uppercase">Aranceles</a></li>
+                </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+        </header>
+        
+        <main>
+
+            <section class="hero" id="hero">
+                <div class="hero__body">
+                    <h1 class="section-title mb-7 uppercase">Bienvenido a Mackintosh S.A.</h1>
+                    <h4 class="hero__description mb-7">Texto Texto Texto Texto Texto Texto Texto Texto Texto <br>
+                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </h2>
+                </div>
+            </section>
+
+            <section class="features-container" id="features">
+                <h2 class="features__title uppercase">Nuestros productos</h2>
+                <div class="features">
+                    <div class="feature__box feature__box1">
+                        <i class="far fa-copy"></i>
+                        <h4 class="uppercase">Acciones</h4>
+                        <p class="feature__box-description">Destinadas a inversiones dispuestos a asumir mayores riesgos buscando obtener mayores rentabilidades.</p>
+                    </div>
+                    <div class="feature__box feature__box2">
+                        <i class="fas fa-book"></i>
+                        <h4 class="uppercase">Bonos</h4>
+                        <p class="feature__box-description">Destinado  a inversores que busquen previsibilidad en sus inversiones, con un horizonte de mediano y largo plazo.</p>
+                    </div>
+                    <div class="feature__box feature__box3">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <h4 class="feature__box-title1 uppercase">Opciones y futuros</h4>
+                        <p class="feature__box-description">Permite invertir en el mercado local en empresas internacionales de primera linea.</p>
+                    </div>
+                    <div class="feature__box feature__box4">
+                        <i class="fas fa-book-open"></i>
+                        <h4 class="uppercase">Cedears</h4>
+                        <p class="feature__box-description">Las opciones nos permiten, ante mercados volatiles, dar cobertura o aprovechar posibles oportunidades.</p>
+                    </div>
+                    <div class="feature__box feature__box5">
+                        <i class="fas fa-user-shield"></i>
+                        <h4 class="uppercase">Cauciones y pases</h4>
+                        <p class="feature__box-description">Permite hacer colocaciones de corto plazo a empresas y particulares.</p>
+                    </div>
+                    <div class="feature__box feature__box6">
+                        <i class="fas fa-donate"></i>
+                        <h4 class="uppercase">Préstamo de Valores</h4>
+                        <p class="feature__box-description">Los futuros nos permiten dar previsibilidad a nuestro portfolio y empresa. Es un instrumento de gran ayuda y cobertura.</p>
+                    </div>
+                    <div class="feature__box feature__box7">
+                        <i class="fas fa-donate"></i>
+                        <h4 class="uppercase">Custodia de Valores</h4>
+                        <p class="feature__box-description">Los futuros nos permiten dar previsibilidad a nuestro portfolio y empresa. Es un instrumento de gran ayuda y cobertura.</p>
+                    </div>
+                    <div class="feature__box feature__box8">
+                        <i class="fas fa-donate"></i>
+                        <h4 class="uppercase">Suscripciones de acciones</h4>
+                        <p class="feature__box-description">Los futuros nos permiten dar previsibilidad a nuestro portfolio y empresa. Es un instrumento de gran ayuda y cobertura.</p>
+                    </div>
+                    <div class="feature__box feature__box9">
+                        <i class="fas fa-donate"></i>
+                        <h4 class="uppercase">Licitaciones de títulos públicos</h4>
+                        <p class="feature__box-description">Los futuros nos permiten dar previsibilidad a nuestro portfolio y empresa. Es un instrumento de gran ayuda y cobertura.</p>
+                    </div>
+                    <div class="feature__box feature__box10">
+                        <i class="fas fa-donate"></i>
+                        <h4 class="uppercase">Liquidación de rentas de títulos públicos y dividendos</h4>
+                        <p class="feature__box-description">Los futuros nos permiten dar previsibilidad a nuestro portfolio y empresa. Es un instrumento de gran ayuda y cobertura.</p>
+                    </div>
+                    <div class="feature__box feature__box11">
+                        <i class="fas fa-donate"></i>
+                        <h4 class="uppercase">Asesoramiento bursátil</h4>
+                        <p class="feature__box-description">Los futuros nos permiten dar previsibilidad a nuestro portfolio y empresa. Es un instrumento de gran ayuda y cobertura.</p>
+                    </div>
+                    <div class="feature__box feature__box12">
+                        <i class="fas fa-donate"></i>
+                        <h4 class="uppercase">Análisis de balances y fundamentals</h4>
+                        <p class="feature__box-description">Los futuros nos permiten dar previsibilidad a nuestro portfolio y empresa. Es un instrumento de gran ayuda y cobertura.</p>
+                    </div>
+                    <div class="feature__box feature__box13">
+                        <i class="fas fa-donate"></i>
+                        <h4 class="uppercase">Asesoramiento legal</h4>
+                        <p class="feature__box-description">Los futuros nos permiten dar previsibilidad a nuestro portfolio y empresa. Es un instrumento de gran ayuda y cobertura.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-us__container" id="about-us">
+                <div class="about-us">
+                    <div class="about-us__box">
+                        <img src="static/img/logo.png" class="about-us__img" alt="">
+                        <div class="about-us__container">
+                            <h3 class="about-us__title uppercase">Sobre nosotros</h3>
+                            <h4 class="about-us__description">La firma fue fundada en el año 1923 por el señor Julián Eduardo Mackintosh. <br>
+                                <br>
+                                Desde su inauguración, está dedicada al quehacer bursátil, canalizando las inversiones  en activos de Renta Fija y Variable como así también en Derivados y Futuros. <br>
+                                <br>
+                                La transparencia, la seriedad, la confidencialidad y la atención personalizada son  principales valores que nos avalan como Agente de Liquidación y Negociación Propio, a través de los casi 100 años de actividad ininterrumpida en el Mercado de Capitales. <br>
+                                <br>
+                                Nuestro objetivo es optimizar el rendimiento del Portafolio de nuestros clientes, brindando asesoramiento e información. 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.762630851139!2d-58.38281047399886!3d-34.59934007968793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacbe5d67947%3A0x80864cc17274d00c!2sMaip%C3%BA%20692%2C%20C1006%20ACH%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1607966940083!5m2!1sen!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+            
+            <footer class="contact" id="contact">
+                <div class="contact__box">
+                    <div class="contact__form">
+                        <form action="send_mail.php" method="post" class="form">
+
+                            <div class="form__header">
+                                <h3 class="form__title uppercase">Envianos un mail</h3>
+                            </div>
+                            
+                            <div class="form-item">
+                                <input type="text" class="form-input uppercase" name="name" placeholder="Nombre" aria-label="nombre" required minlength="2">
+                            </div>
+                            
+                            <div class="form-item">
+                                <input type="text" class="form-input uppercase" name="email" placeholder="Email" aria-label="email" required minlength="4">
+                            </div>
+                            
+                            <div class="form-item">
+                                <textarea class="form-input uppercase" name="message" placeholder="Mensaje" aria-label="mensaje" required minlength="4"></textarea>
+                            </div>
+                            
+                            <div class="form__item">
+                                <input type="hidden" class="form__input" id="form_name" name="subject" value="Enviado desde Adasoftware.com.ar" aria-label="subject" required minlength="2">
+                            </div>
+                            
+                            <button class="form-button uppercase g-recaptcha" type="submit" name="submit" id="submit">enviar</button>
+                        </form>    
+                    </div>
+                    <div class="contact__container">
+                        <div class="contact__box-info">
+                            <div class="contact__info-box">
+                                <h3 class="contact__title uppercase">Ubicación</h3>
+                                <h4 class="contact__description">Maipú 692</h4>
+                            </div>
+                            <div class="contact__info-box">
+                                <h3 class="contact__title uppercase">Email</h3>
+                                <h4 class="contact__description">macki@macki.sba.com.ar</h4>
+                            </div>
+                            <div class="contact__info-box">
+                                <h3 class="contact__title uppercase">Teléfonos</h3>
+                                <h4 class="contact__description">4326 9417 (Tel-Fax)</h4>
+                                <h4 class="contact__description">4393 7347</h4>
+                            </div>
+                            <div class="contact__info-box">
+                                <h3 class="contact__title uppercase">Legales</h3>
+                                <h4 class="contact__description"><a target="_blank" href="static/pdf/codigo_conducta.pdf">Código de conducta</a></h4>
+                                <h4 class="contact__description"><a target="_blank" href="static/pdf/aranceles.pdf">Aranceles</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        <!-- SPINNER LOADING WEBSITE -->
+        <script src="static/js/spinner.js"></script>
+        <!-- JQUERY -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- HEADER SCROLL DOWN CHANGE BACKGROUND -->
+        <script src="static/js/header-background-change.js"></script>
+    </body>    
+</html>

@@ -1,0 +1,63 @@
+* {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family:'montserrat';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family:'montserratthin';
+    src: url(fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family:'raleway';
+    src: url(fonts/Raleway-ExtraBold.ttf);
+}
+
+h2,h3,h4,h5,h6 {
+    font-weight:normal;
+}
+
+body, html {
+    margin:0px;
+}
+
+body {
+    background-color:rgba(216, 213, 213, 0.514);
+}
+
+#principal {
+    text-align:center;
+}
+
+#enviado_texto {
+    font-size:40px;
+    color:rgba(25, 122, 151, 0.726);
+    font-family: var(--ff-titillium);
+    margin-top:300px;
+    font-weight:bold;
+    margin-bottom: 2em;
+}
+
+#boton_volver {
+    text-decoration: none;
+    padding: 1em;
+    border:0px;
+    font-family: var(--ff-logo);
+    color:rgba(65, 63, 63, 0.671);
+    background-color:rgba(204, 203, 203, 0.479);
+    font-size: 1rem;
+    transition: .4s ease all;
+}
+
+#boton_volver:hover {
+    cursor:pointer;
+    background-color:rgba(65, 63, 63, 0.158);
+}
+
+#boton_link {
+    text-decoration:none;
+}
