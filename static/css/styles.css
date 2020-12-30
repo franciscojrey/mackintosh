@@ -216,7 +216,7 @@ nav li {
 nav a {
     color: #ada59e;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: .8rem;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
     font-weight: bold;
