@@ -80,10 +80,6 @@ p {
     margin: 0;
 }
 
-h1 {
-    font-size: 3.5rem;
-}
-
 h2, 
 h3 {
     line-height: 0.8;
@@ -268,7 +264,7 @@ nav a:hover {
 }
 
 .hero__body h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Raleway-Medium;
     color: var(--clr-white);
     line-height: 1.5em;
@@ -278,7 +274,7 @@ nav a:hover {
     max-width: 30em;
     color: var(--clr-white);
     margin: 0 auto;
-    font-size: .9em;
+    font-size: .9rem;
     font-family: Raleway-Light;
     letter-spacing: .1rem;
 }
@@ -309,7 +305,7 @@ nav a:hover {
 
 .features__title {
     margin-bottom: 2em;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Raleway-Thin;
     color: #ada59e;
     letter-spacing: 2px;
@@ -358,7 +354,7 @@ nav a:hover {
     grid-area: title;
     color: var(--clr-black);
     font-family: Raleway-Light;
-    font-size: .9rem;
+    font-size: .8rem;
     padding-top: .5em;
     grid-area: title;
     letter-spacing: 4px;
@@ -368,7 +364,7 @@ nav a:hover {
     font-family: Raleway-Light;
     padding-top: 1em;
     grid-area: description;
-    font-size: .8rem;
+    font-size: .7rem;
     color: var(--clr-black);
     grid-area: description;
     line-height: 1.2rem;
@@ -398,7 +394,7 @@ nav a:hover {
 .about-us__title {
     line-height: 1.5em;
     margin-bottom: 1em;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Raleway-Thin;
     color: #ada59e; 
     letter-spacing: 2px;
@@ -408,7 +404,7 @@ nav a:hover {
     margin-bottom: 1rem;
     color: var(--clr-black);
     font-family: Raleway-Light;
-    font-size: .8rem;
+    font-size: .7rem;
     line-height: 1.4rem;
 }
 
@@ -488,7 +484,7 @@ nav a:hover {
 }
 
 .form__title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Raleway-Thin;
     color: #ada59e;
     letter-spacing: 2px;
@@ -515,7 +511,7 @@ nav a:hover {
     border-radius: 5px;
     background-color: rgb(240, 240, 240);
     border: 0px;
-    font-size: .6rem;
+    font-size: .7rem;
     letter-spacing: 2px;
     font-family: Raleway-Light;
     font-weight: bolder;
@@ -573,7 +569,7 @@ textarea {
 }
 
 .contact__title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Raleway-Thin;
     color: #ada59e;
     letter-spacing: 2px;
@@ -585,7 +581,7 @@ textarea {
 .contact__description {
     color: rgb(100, 100, 100);
     font-family: Colfax;
-    font-size: .8rem;
+    font-size: .7rem;
     margin-bottom: .3em;
 }
 
