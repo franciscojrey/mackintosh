@@ -263,7 +263,7 @@ nav a:hover {
 }
 
 .carousel-item {
-    height: 100vh;
+    height: 120vh;
 }
 
 .carousel-caption {
@@ -685,6 +685,10 @@ textarea {
     }
 
     /* --------------- HOME BIG SCREEN START --------------- */
+
+    .carousel-item {
+        height: 100vh;
+    }
 
     .carousel-caption {
         max-width: 1100px;
