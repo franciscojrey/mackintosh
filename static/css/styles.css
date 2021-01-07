@@ -58,11 +58,6 @@ body {
     overflow-x: hidden;
 }
 
-img{
-    display:block;
-    max-width: 100%;
-}
-
 section {
     padding: 3em 1em;
 }
@@ -141,7 +136,7 @@ p:last-child {
 
 /* --------------- HOMEPAGE STYLES START --------------- */
 
-/* --------------- NAVBAR START --------------- */
+/* --------------- NAVBAR START --------------- 
 
 header {
     border-bottom: 1px solid rgb(192, 192, 192);
@@ -254,7 +249,7 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-/* --------------- NAVBAR END --------------- */
+ --------------- NAVBAR END --------------- */
 
 /* --------------- HOME START --------------- */
 
@@ -831,7 +826,7 @@ textarea {
 @media only screen and (min-width: 1200px) {
 
         
-    /* --------------- NAVBAR BIG SCREEN START --------------- */
+    /* --------------- NAVBAR BIG SCREEN START ---------------
     
     header {
         height: 6em;
@@ -870,7 +865,7 @@ textarea {
         transition: all ease-in-out 250ms;
     }
     
-    /* --------------- NAVBAR BIG SCREEN END --------------- */
+     --------------- NAVBAR BIG SCREEN END --------------- */
 
     /* --------------- CONTACT BIG SCREEN START --------------- */
     .contact {
