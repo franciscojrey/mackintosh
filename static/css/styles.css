@@ -282,7 +282,7 @@ nav a:hover {
     font-family: Raleway-Light;
     letter-spacing: .15rem;
     text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 1rem;
+    padding-bottom: 3em;
 }
 
 .fs-bigger {
@@ -832,7 +832,7 @@ textarea {
 
         
     /* --------------- NAVBAR BIG SCREEN START --------------- */
-
+    
     header {
         height: 6em;
     }

@@ -7,9 +7,15 @@ if (isset($_POST['submit'])) {
     $mailFrom = $_POST['email'];
     $message = $_POST['message'];
 
-    $mailTo = "soporte@adasoftware.com.ar";
-    $txt = "Email enviado desde el sitio web www.rmackintosh.com.ar \n\n Nombre: ".$name.".\n\n"."Teléfono: ".$telefono.".\n\n"."Mail: ".$mailFrom.".\n\n"."Mensaje: ".$message;
-    
-    mail($mailTo, $subject, $txt);
-    header("Location: message_sended.html");
+    if (empty($name)) || empty($mailFrom) || empty($message) {
+        header("Location: index.php?contact=empty");
+    } else {
+        $mailTo = "soporte@adasoftware.com.ar";
+        $txt = "Email enviado desde el sitio web www.rmackintosh.com.ar \n\n Nombre: ".$name.".\n\n"."Teléfono: ".$telefono.".\n\n"."Mail: ".$mailFrom.".\n\n"."Mensaje: ".$message;
+        mail($mailTo, $subject, $txt);
+        header("Location: contact.php?contact=success");
+    }
+} else {
+    header("Location: index.php");
+    exit();
 }
