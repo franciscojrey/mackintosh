@@ -170,6 +170,7 @@ img {
 
 .nav__item {
   margin: 2.5rem 0;
+  text-align: left;
 }
 
 .nav__link {
@@ -193,11 +194,6 @@ img {
 /*Aparecer menu*/
 .show {
   left: 0;
-}
-
-/*Active menu*/
-.active {
-  color: rgb(196, 72, 0);
 }
 
 /*===== MEDIA QUERIES =====*/
@@ -268,11 +264,11 @@ img {
     padding: .5rem .8rem;
     border-radius: .25rem;
   }
-  /*
-  .nav__link:hover {
-    background-color: var(--first-color);
-  }
   
+  .nav__link:hover {
+    color: rgb(153, 150, 126);
+  }
+  /*
   .active {
     background-color: var(--first-color);
     color: var(--white-color);
