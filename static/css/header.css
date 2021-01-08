@@ -74,7 +74,7 @@ img {
 
 #header {
   position: fixed;
-  z-index: 1;
+  z-index: 20;
   background-color: white;
   width: 100%;
   border-bottom: 1px solid rgb(226, 226, 226);
@@ -118,7 +118,6 @@ img {
     grid-template-columns: 85% 15%;
     align-items: center;
   }
-
 
   .header__logo {
     margin: 0 auto 0 0;
