@@ -1,5 +1,29 @@
-/*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@font-face {
+  font-family: 'Colfax';
+  src: url(../fonts/Colfax-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Raleway-Thin';
+  src: url(../fonts/Raleway-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 0;
@@ -40,8 +64,6 @@
 
 body {
   margin: var(--header-height) 0 0 0;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
   font-weight: 500;
 }
 
@@ -61,7 +83,7 @@ img {
 }
 
 .bd-grid {
-  max-width: 1800px;
+  max-width: 1900px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 100%;
@@ -110,7 +132,7 @@ img {
 }
 
 /*===== NAV =====*/
-@media screen and (max-width: 1359px) {
+@media screen and (max-width: 1449px) {
 
   .anchor {
     display:block;
@@ -203,7 +225,9 @@ img {
 }
 
 .nav__link {
-  color: #ada59e; 
+  color: #b49c86; 
+  font-family: Raleway-Medium;
+  font-size: .9rem;
 }
 
 .nav__social {
@@ -226,7 +250,7 @@ img {
 }
 
 /*===== MEDIA QUERIES =====*/
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1450px) {
   body {
     margin: 0;
   }
@@ -299,7 +323,7 @@ img {
     margin: 0 .25rem;
   }
   .nav__link {
-    padding: .5rem .8rem;
+    padding: .5rem;
     border-radius: .25rem;
   }
   
@@ -314,7 +338,7 @@ img {
   */
 }
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1450px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
