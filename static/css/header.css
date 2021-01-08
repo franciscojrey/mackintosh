@@ -112,6 +112,13 @@ img {
 /*===== NAV =====*/
 @media screen and (max-width: 1359px) {
 
+  .anchor {
+    display:block;
+    height:70px; 
+    margin-top:-70px; 
+    visibility:hidden;
+ }
+
   #header {
     padding-top: .5em;
     display: grid;
@@ -223,6 +230,14 @@ img {
   body {
     margin: 0;
   }
+
+  .anchor {
+    display:block;
+    height:110px; 
+    margin-top:-110px; 
+    visibility:hidden;
+ }
+
   .header {
     margin-top: 0;
   }

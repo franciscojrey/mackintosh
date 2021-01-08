@@ -122,12 +122,6 @@ p:last-child {
     text-align: left;
 }
 
-.header-shadow {
-    -webkit-box-shadow: 0px 10px 18px -8px rgba(97, 97, 97, 0.365);
-    -moz-box-shadow: 0px 10px 18px -8px rgba(97, 97, 97, 0.365);
-    box-shadow: 0px 10px 18px -8px rgba(97, 97, 97, 0.365);
-}
-
 .bold {
     font-weight: bold;
 }
