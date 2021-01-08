@@ -66,6 +66,7 @@ section {
     line-height: 1;
 }
 
+
 /* --------------- CONTACT FORM INPUT NUMBER HIDE ARROWS START --------------- */
 
 /* Chrome, Safari, Edge, Opera */
@@ -369,7 +370,7 @@ nav a:hover {
     grid-area: title;
     color: var(--clr-black);
     font-family: Raleway-Light;
-    font-size: .7rem;
+    font-size: .8rem;
     padding-top: .5em;
     grid-area: title;
     letter-spacing: 4px;
@@ -533,7 +534,7 @@ footer {
     border-radius: 5px;
     background-color: rgb(240, 240, 240);
     border: 0px;
-    font-size: .5rem;
+    font-size: .6rem;
     letter-spacing: 2px;
     font-family: Raleway-Light;
     font-weight: bolder;
