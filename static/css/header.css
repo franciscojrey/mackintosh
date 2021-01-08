@@ -111,6 +111,25 @@ img {
 
 /*===== NAV =====*/
 @media screen and (max-width: 1359px) {
+
+  #header {
+    padding-top: .5em;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    align-items: center;
+  }
+
+
+  .header__logo {
+    margin: 0 auto 0 0;
+    padding-left: 1em;
+  }
+
+  .header__toggle {
+    margin: 0 0 0 auto;
+    padding-right: 1em;
+  }
+
   .nav {
     position: fixed;
     top: 0;
