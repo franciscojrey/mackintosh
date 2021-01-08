@@ -326,9 +326,9 @@ nav a:hover {
 .features__title {
     margin-bottom: 2em;
     font-size: 1.3rem;
-    font-family: Raleway-Thin;
+    font-family: Raleway-Light;
     color: #ada59e;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     line-height: 1.5em;
 }
 
@@ -411,9 +411,9 @@ nav a:hover {
     line-height: 1.5em;
     margin-bottom: 1em;
     font-size: 1.3rem;
-    font-family: Raleway-Thin;
+    font-family: Raleway-Light;
     color: #ada59e; 
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .about-us__description {
@@ -508,7 +508,7 @@ footer {
 
 .form__title {
     font-size: 1.3rem;
-    font-family: Raleway-Thin;
+    font-family: Raleway-Light;
     color: #ada59e;
     letter-spacing: 2px;
     font-weight: bolder;
@@ -593,7 +593,7 @@ textarea {
 
 .contact__title {
     font-size: 1.3rem;
-    font-family: Raleway-Thin;
+    font-family: Raleway;
     color: var(--clr-white);
     letter-spacing: 2px;
     font-weight: bolder;
@@ -606,6 +606,7 @@ textarea {
     font-family: Colfax;
     font-size: .7rem;
     margin-bottom: .3em;
+    font-weight: lighter;
 }
 
 .contact__description a {
@@ -614,6 +615,38 @@ textarea {
 }
 
 /* --------------- FOOTER END --------------- */
+
+/* --------------- LOGOS START --------------- */
+
+.logos {
+    padding-left: 0;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-areas: 
+    "logo1"
+    "logo2"
+    "logo3";
+}
+
+.logo1 {grid-area: logo1;}
+.logo2 {grid-area: logo2;}
+.logo3 {grid-area: logo3;}
+
+.logo  {
+    width: 220px;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 60px;
+    object-fit: fill;
+  }
+/* --------------- LOGOS END --------------- */
 
 @media only screen and (min-width: 350px) {
 
@@ -815,6 +848,36 @@ textarea {
     }
     
     /* --------------- FOOTER BIG SCREEN END --------------- */
+
+    /* --------------- LOGOS BIG SCREEN START --------------- */
+
+    .logos {
+        max-width: 900px;
+        padding: 1em;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-auto-flow: column;
+        grid-column-gap: 2em;
+        width: 100%;
+        margin: 0 auto;
+        grid-template-areas: 
+        "logo1 logo2 logo3";
+    }
+
+    .logo  {
+        width: 220px;
+        padding: 2rem;
+        margin: 0 auto;
+      }
+    
+      .logo img {
+          width: 100%;
+          height: 60px;
+          object-fit: fill;
+      }
+
+    /* --------------- LOGOS BIG SCREEN END --------------- */
+
     
 }
 
