@@ -236,7 +236,19 @@
                                 <div class="form__header">
                                     <h3 class="form__title uppercase">Consultas</h3>
                                 </div>
-                                
+                                <?php
+                                if (!isset($_GET['contact'])) {
+                                }
+                                else {
+                                    $contactCheck = $_GET['contact'];
+                                    if ($contactCheck == "empty") {
+                                        echo "<div class='contact-message-box'><p class='contact-message error'>Debe completar todos los campos.</p></div>";
+                                    }
+                                    elseif ($contactCheck == "success") {
+                                        echo "<div class='contact-message-box'><p class='contact-message success'>Gracias por contactarse con nosotros. Le responderemos a la brevedad.</p></div>";
+                                    }
+                                }
+                                ?>
                                 <div class="form-item">
                                     <input type="text" class="form-input" name="name" placeholder="Nombre" aria-label="nombre" required minlength="2">
                                 </div>
