@@ -654,7 +654,7 @@ textarea {
 
     .features {
         padding: 0 2em;
-        max-width: 900px;
+        max-width: 810px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
         "box1 box2"
@@ -668,12 +668,13 @@ textarea {
     }
 
     .feature__box {
+        grid-template-rows: 3.5em;
         padding: 1.5em;
         grid-template-columns: 2fr;
         grid-column-gap: 1em;
         grid-template-areas: 
         "picture title"
-        "picture description"
+        ". description"
     }
 
     .feature__box h4 {
@@ -681,51 +682,6 @@ textarea {
         font-size: .9rem;
     }
     
-
-    .feature__box-title1,
-    .feature__box-title2 {
-        
-    }
-
-    .feature__box-description1,
-    .feature__box-description2 {
-        
-    }
-    
-    .feature__box-title3,
-    .feature__box-title4 {
-        
-    }
-
-    .feature__box-description3,
-    .feature__box-description4 {
-        
-    }
-
-    .feature__box-title5,
-    .feature__box-title6 {
-        
-    }
-
-    .feature__box-description5,
-    .feature__box-description6 {
-        
-    }
-    
-    .feature__box-title7,
-    .feature__box-title8 {
-        
-    }
-
-    .feature__box-description7,
-    .feature__box-description8 {
-        
-    }
-
-    .feature__box-title9 {
-        
-    }
-
     .feature__box-description {
         padding: 0;
         font-size: .7rem;
@@ -832,42 +788,6 @@ textarea {
         "box7 box8 box9"
     }
 
-    .feature__box-title1,
-    .feature__box-title2,
-    .feature__box-title3 {
-        
-    }
-
-    .feature__box-description1,
-    .feature__box-description2,
-    .feature__box-description3 {
-        
-    }
-
-    .feature__box-title4,
-    .feature__box-title5,
-    .feature__box-title6 {
-        
-    }
-
-    .feature__box-description4,
-    .feature__box-description5,
-    .feature__box-description6 {
-        
-    }
-    
-    .feature__box-title7,
-    .feature__box-title8,
-    .feature__box-title9 {
-        
-    }
-
-    .feature__box-description7,
-    .feature__box-description8,
-    .feature__box-description9 {
-        
-    }
-
     /* --------------- FEATURES BIG SCREEN END --------------- */
 }
 @media only screen and (min-width: 1600px) {
@@ -877,6 +797,5 @@ textarea {
     .features {
         max-width: 1350px;
     }
-
     /* --------------- FEATURES BIG SCREEN START --------------- */
 }

@@ -28,12 +28,12 @@
         <header id="header">
             <a href="#home" class="header__logo"><img src="static/img/logo.png" alt=""></a>
 
-            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon> <!--SEGUNDO ID-->
 
-            <nav class="nav" id="nav-menu">
+            <nav class="nav" id="nav-menu">  <!-- PRIMER ID-->
                 <div class="nav__content bd-grid">
                     
-                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon> <!-- TERCER ID-->
                     
                     <div class="nav__perfil">
                         <div class="nav__img">
@@ -47,6 +47,7 @@
     
                     <div class="nav__menu">
                         <ul class="nav__list">
+                            <!-- TERCER QUERY SELECTOR -->
                             <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
                             <li class="nav__item"><a href="#features" class="nav__link">Servicios</a></li>
                             <li class="nav__item"><a href="#about-us" class="nav__link">Nosotros</a></li>
@@ -56,34 +57,8 @@
                             <li class="nav__item"><a href="https://inversor.sba.com.ar/?180" target="_blank" class="nav__link">Tenencia</a></li>
                         </ul>
                     </div>
-                    <!--
-                    <div class="nav__social">
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-github"></ion-icon></a>
-                        <a href="#" class="nav__social-icon"><ion-icon name="logo-behance"></ion-icon></a>
-                    </div>
-                    -->
                 </div>
             </nav>
-            <!--
-                <a href="#hero"><img src="static/img/logo.png" alt="" class="logo"></a>
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    
-                <nav>
-                    <ul class="menu">
-                        <li><a href="#home" class="uppercase">Inicio</a></li>
-                        <li><a href="#features" class="uppercase">Servicios</a></li>
-                        <li><a href="#about-us" class="uppercase">Nosotros</a></li>
-                        <li><a href="https://www.bolsar.com/VistasDL/PaginaPrincipal.aspx" target="_blank" class="uppercase">Cotizaciones</a></li>
-                        <li><a href="static/pdf/aranceles.pdf" target="_blank" class="uppercase">Aranceles</a></li>
-                        <li><a href="#contact" class="uppercase">Contacto</a></li>
-                    </ul>
-                </nav>
-                <label for="nav-toggle" class="nav-toggle-label">
-                    <span></span>
-                </label>
-
-            -->
         </header>
         
         <main>
@@ -285,7 +260,7 @@
                     </div>
                 </div>
             </footer>
-
+        </main>
         <!-- IONICONS -->
         <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
         <!-- JQUERY -->
